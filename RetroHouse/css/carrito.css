@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+.title{
+    margin-left: 12px;
+}
+.user-icon{
+    margin-right: 12px;
+}
+
+.precio-container{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 16px;
+}
+
+.precio-carrito{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}

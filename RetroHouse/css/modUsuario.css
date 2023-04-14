@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+
+.contadores{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+.admin, .users{
+    background: #d2d2d2;
+    width: 33%;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+}
+html, body,.intro {
+    height: 100%;
+}
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #000;
+    color: #fff;
+    padding: 12px;
+}
+
+header .title{
+    margin-left: 12px;
+}
+
+header .user-icon{
+    margin-right: 12px;
+}
+
+label{
+    color: #fff;
+}
+.dataTables_info{
+    color: #fff;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #585854;
+    border-color: #585854;
+}
+/* .bg-image{
+    background-image: url('../images/Fondo.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+
+} */
+.mask-custom {
+    background: rgba(24, 24, 16, .2);
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(46, 54, 68, 0.03);
+}
+
+
+
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+}
+.switchBtn input {display:none;}
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #8CE196;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 8px;
+    color: #fff;
+}
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 78px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slide {
+    background-color: #ccc;
+    padding-left: 40px;
+}
+input:focus + .slide {
+    box-shadow: 0 0 1px #01aeed;
+}
+input:checked + .slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -20px;
+}
+.slide.round {
+    border-radius: 34px;
+}
+.slide.round:before {
+    border-radius: 50%;
+}
+

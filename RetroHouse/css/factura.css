@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9b9b9b;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/Fondo.png");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+.title{
+    margin-left: 12px;
+}
+.user-icon{
+    margin-right: 12px;
+}
+.containerFactura{
+    margin: 2% 5%;
+    color: #000;
+    background: rgba(221, 221, 221, 0.6);
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(46, 54, 68, 0.03);
+    padding:5px;
+    margin-bottom:8px;
+    border-radius: 10px;
+    padding: 2% 2%;
+    line-height: 300%;
+}
+
+.productos{
+    margin-left: 4%;
+}
+fieldset{
+    padding-left: 2%;
+}
+
+table{
+    font-size: 150%;
+}
+thead{
+    /* background-color: #E3E2E2; */
+    background-color: rgba(126, 126, 126, 0.685);;
+    text-align: left;
+    padding-left: 2%;
+}
+tbody{
+    /* background-color: #EEEEEE; */
+    background-color: rgba(221, 221, 221, 0.6);;
+    text-align: left;
+    padding-left: 2%;
+}
+th,td{
+    width: 400px;
+    padding-left: 1%;
+}
+tr{
+    border: solid black;
+}
+button.regresar{
+    font-size: large;
+    width: 100px;
+    height: 45px;
+    border-radius: 0.375rem;
+    background-color: #6c757d;
+    color: #fff;
+    border-style: none;
+    margin-bottom: 1%;
+}

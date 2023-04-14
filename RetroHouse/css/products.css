@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-image: url('../images/');
+    color: #fff;
+    padding: 12px;
+}
+
+
+
+.category{
+    margin: 2em;
+    padding: 20px;
+    float: left;
+}
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 100vh;
+    padding: 16px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 30%;
+    max-width: 30%;
+    border: 2px solid red;
+}
+.product-img{
+    height: 75%;
+    text-align: center;
+    border: 2px solid blue;
+}
+.description{
+    text-align: center;
+}
+

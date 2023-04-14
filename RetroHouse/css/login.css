@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+
+body{
+    background-image: url(../images/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+#form-container{
+    background:  #ffffffc3;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    #form-container{
+        width: 75%;
+    }
+}

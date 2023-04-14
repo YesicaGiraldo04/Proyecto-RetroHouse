@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+body{
+    background-image: url(../images/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/* diseño de las tablas */
+.tablas{
+    color: #fff;
+    background: rgba(24, 24, 16, .6);
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(46, 54, 68, 0.03);
+    padding:5px;
+    margin-bottom:8px;
+}
+
+
+.page-item.active .page-link{
+    background-color: #585854;
+    border-color: #585854;
+}
+
+a.page-link{
+    color: #000;
+}
+td,th{
+    color: #fff;
+}
